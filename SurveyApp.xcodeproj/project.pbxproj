@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC1EB8EC2C1E0D0400E0BD89 /* ScheduleRemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1EB8EB2C1E0D0400E0BD89 /* ScheduleRemindersView.swift */; };
+		FC6F814D2C12CBF8001590EC /* AppUsageSurveyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6F814C2C12CBF8001590EC /* AppUsageSurveyView.swift */; };
+		FC6F814F2C12CC05001590EC /* GHQ12SurveyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6F814E2C12CC05001590EC /* GHQ12SurveyView.swift */; };
+		FC6F81512C12CC49001590EC /* ThankYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6F81502C12CC49001590EC /* ThankYouView.swift */; };
+		FCB5272A2C38FAB7008C9216 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB527292C38FAB7008C9216 /* AppDelegate.swift */; };
 		FCF218E62C1294F000F9AB3C /* SurveyAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF218E52C1294F000F9AB3C /* SurveyAppApp.swift */; };
 		FCF218E82C1294F000F9AB3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF218E72C1294F000F9AB3C /* ContentView.swift */; };
 		FCF218EA2C1294F200F9AB3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCF218E92C1294F200F9AB3C /* Assets.xcassets */; };
@@ -34,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC1EB8EB2C1E0D0400E0BD89 /* ScheduleRemindersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleRemindersView.swift; sourceTree = "<group>"; };
+		FC6F814C2C12CBF8001590EC /* AppUsageSurveyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUsageSurveyView.swift; sourceTree = "<group>"; };
+		FC6F814E2C12CC05001590EC /* GHQ12SurveyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHQ12SurveyView.swift; sourceTree = "<group>"; };
+		FC6F81502C12CC49001590EC /* ThankYouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouView.swift; sourceTree = "<group>"; };
+		FCB527292C38FAB7008C9216 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../.Trash/AppDelegate.swift; sourceTree = "<group>"; };
 		FCF218E22C1294F000F9AB3C /* SurveyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurveyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCF218E52C1294F000F9AB3C /* SurveyAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyAppApp.swift; sourceTree = "<group>"; };
 		FCF218E72C1294F000F9AB3C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +84,7 @@
 		FCF218D92C1294F000F9AB3C = {
 			isa = PBXGroup;
 			children = (
+				FCB527292C38FAB7008C9216 /* AppDelegate.swift */,
 				FCF218E42C1294F000F9AB3C /* SurveyApp */,
 				FCF218F52C1294F200F9AB3C /* SurveyAppTests */,
 				FCF218FF2C1294F200F9AB3C /* SurveyAppUITests */,
@@ -94,8 +105,12 @@
 		FCF218E42C1294F000F9AB3C /* SurveyApp */ = {
 			isa = PBXGroup;
 			children = (
+				FC1EB8EB2C1E0D0400E0BD89 /* ScheduleRemindersView.swift */,
 				FCF218E52C1294F000F9AB3C /* SurveyAppApp.swift */,
 				FCF218E72C1294F000F9AB3C /* ContentView.swift */,
+				FC6F814C2C12CBF8001590EC /* AppUsageSurveyView.swift */,
+				FC6F81502C12CC49001590EC /* ThankYouView.swift */,
+				FC6F814E2C12CC05001590EC /* GHQ12SurveyView.swift */,
 				FCF218E92C1294F200F9AB3C /* Assets.xcassets */,
 				FCF218EB2C1294F200F9AB3C /* Preview Content */,
 			);
@@ -257,8 +272,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC1EB8EC2C1E0D0400E0BD89 /* ScheduleRemindersView.swift in Sources */,
+				FC6F814F2C12CC05001590EC /* GHQ12SurveyView.swift in Sources */,
+				FC6F814D2C12CBF8001590EC /* AppUsageSurveyView.swift in Sources */,
 				FCF218E82C1294F000F9AB3C /* ContentView.swift in Sources */,
+				FCB5272A2C38FAB7008C9216 /* AppDelegate.swift in Sources */,
 				FCF218E62C1294F000F9AB3C /* SurveyAppApp.swift in Sources */,
+				FC6F81512C12CC49001590EC /* ThankYouView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
