@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import SurveyApp
+@testable import Mindful_Media
 
 final class SurveyAppTests: XCTestCase {
 

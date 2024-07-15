@@ -4,12 +4,12 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack {
-                Text("Welcome to the Survey App")
+                Text("Welcome to the Mindful Media App")
                     .font(.largeTitle)
                     .padding()
                 
                 NavigationLink(destination: GHQ12SurveyView()) {
-                    Text("GHQ-12 Survey")
+                    Text("Mental Health Survey")
                         .font(.title2)
                         .padding()
                         .background(Color.blue)
@@ -17,7 +17,7 @@ struct ContentView: View {
                         .cornerRadius(10)
                 }
                 .padding()
-
+                
                 NavigationLink(destination: AppUsageSurveyView()) {
                     Text("App Usage Survey")
                         .font(.title2)
@@ -37,8 +37,21 @@ struct ContentView: View {
                         .cornerRadius(10)
                 }
                 .padding()
+                
+                NavigationLink(destination: InstructionsView()) {
+                    Text("How to Use the App")
+                        .font(.title2)
+                        .padding()
+                        .background(Color.purple)
+                        .foregroundColor(.white)
+                        .cornerRadius(10)
+                }
+                .padding()
             }
             .navigationTitle("Survey Home")
+            .onAppear {
+                print("ContentView has appeared")
+            }
         }
     }
 }

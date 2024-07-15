@@ -19,6 +19,7 @@
 		FCF218F72C1294F200F9AB3C /* SurveyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF218F62C1294F200F9AB3C /* SurveyAppTests.swift */; };
 		FCF219012C1294F200F9AB3C /* SurveyAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF219002C1294F200F9AB3C /* SurveyAppUITests.swift */; };
 		FCF219032C1294F200F9AB3C /* SurveyAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF219022C1294F200F9AB3C /* SurveyAppUITestsLaunchTests.swift */; };
+		FCFB9A4A2C43B9190040F8AB /* InstructionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFB9A492C43B9190040F8AB /* InstructionsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,16 +45,17 @@
 		FC6F814E2C12CC05001590EC /* GHQ12SurveyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHQ12SurveyView.swift; sourceTree = "<group>"; };
 		FC6F81502C12CC49001590EC /* ThankYouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouView.swift; sourceTree = "<group>"; };
 		FCB527292C38FAB7008C9216 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../.Trash/AppDelegate.swift; sourceTree = "<group>"; };
-		FCF218E22C1294F000F9AB3C /* SurveyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurveyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCF218E22C1294F000F9AB3C /* Mindful Media.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mindful Media.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCF218E52C1294F000F9AB3C /* SurveyAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyAppApp.swift; sourceTree = "<group>"; };
 		FCF218E72C1294F000F9AB3C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FCF218E92C1294F200F9AB3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCF218EC2C1294F200F9AB3C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FCF218F22C1294F200F9AB3C /* SurveyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SurveyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCF218F22C1294F200F9AB3C /* Mindful MediaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mindful MediaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCF218F62C1294F200F9AB3C /* SurveyAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyAppTests.swift; sourceTree = "<group>"; };
-		FCF218FC2C1294F200F9AB3C /* SurveyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SurveyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCF218FC2C1294F200F9AB3C /* Mindful MediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mindful MediaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCF219002C1294F200F9AB3C /* SurveyAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyAppUITests.swift; sourceTree = "<group>"; };
 		FCF219022C1294F200F9AB3C /* SurveyAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FCFB9A492C43B9190040F8AB /* InstructionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +97,9 @@
 		FCF218E32C1294F000F9AB3C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FCF218E22C1294F000F9AB3C /* SurveyApp.app */,
-				FCF218F22C1294F200F9AB3C /* SurveyAppTests.xctest */,
-				FCF218FC2C1294F200F9AB3C /* SurveyAppUITests.xctest */,
+				FCF218E22C1294F000F9AB3C /* Mindful Media.app */,
+				FCF218F22C1294F200F9AB3C /* Mindful MediaTests.xctest */,
+				FCF218FC2C1294F200F9AB3C /* Mindful MediaUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,6 +110,7 @@
 				FC1EB8EB2C1E0D0400E0BD89 /* ScheduleRemindersView.swift */,
 				FCF218E52C1294F000F9AB3C /* SurveyAppApp.swift */,
 				FCF218E72C1294F000F9AB3C /* ContentView.swift */,
+				FCFB9A492C43B9190040F8AB /* InstructionsView.swift */,
 				FC6F814C2C12CBF8001590EC /* AppUsageSurveyView.swift */,
 				FC6F81502C12CC49001590EC /* ThankYouView.swift */,
 				FC6F814E2C12CC05001590EC /* GHQ12SurveyView.swift */,
@@ -145,9 +148,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FCF218E12C1294F000F9AB3C /* SurveyApp */ = {
+		FCF218E12C1294F000F9AB3C /* Mindful Media */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FCF219062C1294F200F9AB3C /* Build configuration list for PBXNativeTarget "SurveyApp" */;
+			buildConfigurationList = FCF219062C1294F200F9AB3C /* Build configuration list for PBXNativeTarget "Mindful Media" */;
 			buildPhases = (
 				FCF218DE2C1294F000F9AB3C /* Sources */,
 				FCF218DF2C1294F000F9AB3C /* Frameworks */,
@@ -157,14 +160,14 @@
 			);
 			dependencies = (
 			);
-			name = SurveyApp;
+			name = "Mindful Media";
 			productName = SurveyApp;
-			productReference = FCF218E22C1294F000F9AB3C /* SurveyApp.app */;
+			productReference = FCF218E22C1294F000F9AB3C /* Mindful Media.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FCF218F12C1294F200F9AB3C /* SurveyAppTests */ = {
+		FCF218F12C1294F200F9AB3C /* Mindful MediaTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FCF219092C1294F200F9AB3C /* Build configuration list for PBXNativeTarget "SurveyAppTests" */;
+			buildConfigurationList = FCF219092C1294F200F9AB3C /* Build configuration list for PBXNativeTarget "Mindful MediaTests" */;
 			buildPhases = (
 				FCF218EE2C1294F200F9AB3C /* Sources */,
 				FCF218EF2C1294F200F9AB3C /* Frameworks */,
@@ -175,14 +178,14 @@
 			dependencies = (
 				FCF218F42C1294F200F9AB3C /* PBXTargetDependency */,
 			);
-			name = SurveyAppTests;
+			name = "Mindful MediaTests";
 			productName = SurveyAppTests;
-			productReference = FCF218F22C1294F200F9AB3C /* SurveyAppTests.xctest */;
+			productReference = FCF218F22C1294F200F9AB3C /* Mindful MediaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FCF218FB2C1294F200F9AB3C /* SurveyAppUITests */ = {
+		FCF218FB2C1294F200F9AB3C /* Mindful MediaUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FCF2190C2C1294F200F9AB3C /* Build configuration list for PBXNativeTarget "SurveyAppUITests" */;
+			buildConfigurationList = FCF2190C2C1294F200F9AB3C /* Build configuration list for PBXNativeTarget "Mindful MediaUITests" */;
 			buildPhases = (
 				FCF218F82C1294F200F9AB3C /* Sources */,
 				FCF218F92C1294F200F9AB3C /* Frameworks */,
@@ -193,9 +196,9 @@
 			dependencies = (
 				FCF218FE2C1294F200F9AB3C /* PBXTargetDependency */,
 			);
-			name = SurveyAppUITests;
+			name = "Mindful MediaUITests";
 			productName = SurveyAppUITests;
-			productReference = FCF218FC2C1294F200F9AB3C /* SurveyAppUITests.xctest */;
+			productReference = FCF218FC2C1294F200F9AB3C /* Mindful MediaUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -221,7 +224,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FCF218DD2C1294F000F9AB3C /* Build configuration list for PBXProject "SurveyApp" */;
+			buildConfigurationList = FCF218DD2C1294F000F9AB3C /* Build configuration list for PBXProject "Mindful Media" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -234,9 +237,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FCF218E12C1294F000F9AB3C /* SurveyApp */,
-				FCF218F12C1294F200F9AB3C /* SurveyAppTests */,
-				FCF218FB2C1294F200F9AB3C /* SurveyAppUITests */,
+				FCF218E12C1294F000F9AB3C /* Mindful Media */,
+				FCF218F12C1294F200F9AB3C /* Mindful MediaTests */,
+				FCF218FB2C1294F200F9AB3C /* Mindful MediaUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -273,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC1EB8EC2C1E0D0400E0BD89 /* ScheduleRemindersView.swift in Sources */,
+				FCFB9A4A2C43B9190040F8AB /* InstructionsView.swift in Sources */,
 				FC6F814F2C12CC05001590EC /* GHQ12SurveyView.swift in Sources */,
 				FC6F814D2C12CBF8001590EC /* AppUsageSurveyView.swift in Sources */,
 				FCF218E82C1294F000F9AB3C /* ContentView.swift in Sources */,
@@ -304,12 +308,12 @@
 /* Begin PBXTargetDependency section */
 		FCF218F42C1294F200F9AB3C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FCF218E12C1294F000F9AB3C /* SurveyApp */;
+			target = FCF218E12C1294F000F9AB3C /* Mindful Media */;
 			targetProxy = FCF218F32C1294F200F9AB3C /* PBXContainerItemProxy */;
 		};
 		FCF218FE2C1294F200F9AB3C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FCF218E12C1294F000F9AB3C /* SurveyApp */;
+			target = FCF218E12C1294F000F9AB3C /* Mindful Media */;
 			targetProxy = FCF218FD2C1294F200F9AB3C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -505,7 +509,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SurveyApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SurveyApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mindful Media.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mindful Media";
 			};
 			name = Debug;
 		};
@@ -524,7 +528,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SurveyApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SurveyApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mindful Media.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mindful Media";
 			};
 			name = Release;
 		};
@@ -565,7 +569,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FCF218DD2C1294F000F9AB3C /* Build configuration list for PBXProject "SurveyApp" */ = {
+		FCF218DD2C1294F000F9AB3C /* Build configuration list for PBXProject "Mindful Media" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FCF219042C1294F200F9AB3C /* Debug */,
@@ -574,7 +578,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FCF219062C1294F200F9AB3C /* Build configuration list for PBXNativeTarget "SurveyApp" */ = {
+		FCF219062C1294F200F9AB3C /* Build configuration list for PBXNativeTarget "Mindful Media" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FCF219072C1294F200F9AB3C /* Debug */,
@@ -583,7 +587,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FCF219092C1294F200F9AB3C /* Build configuration list for PBXNativeTarget "SurveyAppTests" */ = {
+		FCF219092C1294F200F9AB3C /* Build configuration list for PBXNativeTarget "Mindful MediaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FCF2190A2C1294F200F9AB3C /* Debug */,
@@ -592,7 +596,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FCF2190C2C1294F200F9AB3C /* Build configuration list for PBXNativeTarget "SurveyAppUITests" */ = {
+		FCF2190C2C1294F200F9AB3C /* Build configuration list for PBXNativeTarget "Mindful MediaUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FCF2190D2C1294F200F9AB3C /* Debug */,

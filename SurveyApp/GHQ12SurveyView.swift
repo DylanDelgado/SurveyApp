@@ -46,7 +46,7 @@ struct GHQ12SurveyView: View {
                         .cornerRadius(10)
                 }
             }
-        .navigationTitle("GHQ-12 Survey")
+        .navigationTitle("Mental Health Survey")
 
         }
     }

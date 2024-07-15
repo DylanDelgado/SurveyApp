@@ -5,6 +5,7 @@ struct AppUsageSurveyView: View {
     @State private var selectedMotiveIndex = 0
     let socialMediaApps = ["Instagram", "Facebook", "Twitter", "Snapchat", "TikTok", "WhatsApp", "LinkedIn", "Reddit", "Pinterest", "YouTube", "Other"]
     let motives = ["Entertainment", "Relationship Maintenance", "FOMO", "Escapism"]
+    
 
     
     var body: some View {
@@ -19,6 +20,15 @@ struct AppUsageSurveyView: View {
                     .pickerStyle(MenuPickerStyle())
                 }
 
+                Section(header: Text("Select Reason Motive")) {
+                    Picker(selection: $selectedMotiveIndex, label: Text("Reason Motive")) {
+                        ForEach(0..<motives.count, id: \.self) { index in
+                            Text(motives[index]).tag(index)
+                        }
+                    }
+                    .pickerStyle(MenuPickerStyle())
+                }
+                
                 Section(header: Text("Select Reason Motive")) {
                     Picker(selection: $selectedMotiveIndex, label: Text("Reason Motive")) {
                         ForEach(0..<motives.count, id: \.self) { index in
