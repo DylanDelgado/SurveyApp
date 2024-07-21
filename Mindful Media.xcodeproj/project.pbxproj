@@ -12,6 +12,7 @@
 		FC6F814F2C12CC05001590EC /* GHQ12SurveyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6F814E2C12CC05001590EC /* GHQ12SurveyView.swift */; };
 		FC6F81512C12CC49001590EC /* ThankYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6F81502C12CC49001590EC /* ThankYouView.swift */; };
 		FCB5272A2C38FAB7008C9216 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB527292C38FAB7008C9216 /* AppDelegate.swift */; };
+		FCC636332C4C339600E6E940 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC636322C4C339600E6E940 /* AccountView.swift */; };
 		FCF218E62C1294F000F9AB3C /* SurveyAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF218E52C1294F000F9AB3C /* SurveyAppApp.swift */; };
 		FCF218E82C1294F000F9AB3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF218E72C1294F000F9AB3C /* ContentView.swift */; };
 		FCF218EA2C1294F200F9AB3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCF218E92C1294F200F9AB3C /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 		FC6F814E2C12CC05001590EC /* GHQ12SurveyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHQ12SurveyView.swift; sourceTree = "<group>"; };
 		FC6F81502C12CC49001590EC /* ThankYouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouView.swift; sourceTree = "<group>"; };
 		FCB527292C38FAB7008C9216 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../.Trash/AppDelegate.swift; sourceTree = "<group>"; };
+		FCC636322C4C339600E6E940 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		FCF218E22C1294F000F9AB3C /* Mindful Media.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mindful Media.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCF218E52C1294F000F9AB3C /* SurveyAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyAppApp.swift; sourceTree = "<group>"; };
 		FCF218E72C1294F000F9AB3C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				FC1EB8EB2C1E0D0400E0BD89 /* ScheduleRemindersView.swift */,
 				FCF218E52C1294F000F9AB3C /* SurveyAppApp.swift */,
 				FCF218E72C1294F000F9AB3C /* ContentView.swift */,
+				FCC636322C4C339600E6E940 /* AccountView.swift */,
 				FCFB9A492C43B9190040F8AB /* InstructionsView.swift */,
 				FC6F814C2C12CBF8001590EC /* AppUsageSurveyView.swift */,
 				FC6F81502C12CC49001590EC /* ThankYouView.swift */,
@@ -281,6 +284,7 @@
 				FC6F814D2C12CBF8001590EC /* AppUsageSurveyView.swift in Sources */,
 				FCF218E82C1294F000F9AB3C /* ContentView.swift in Sources */,
 				FCB5272A2C38FAB7008C9216 /* AppDelegate.swift in Sources */,
+				FCC636332C4C339600E6E940 /* AccountView.swift in Sources */,
 				FCF218E62C1294F000F9AB3C /* SurveyAppApp.swift in Sources */,
 				FC6F81512C12CC49001590EC /* ThankYouView.swift in Sources */,
 			);

@@ -49,8 +49,14 @@ struct ContentView: View {
                 .padding()
             }
             .navigationTitle("Survey Home")
-            .onAppear {
-                print("ContentView has appeared")
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    NavigationLink(destination: AccountView()) {
+                        Image(systemName: "person.circle")
+                            .resizable()
+                            .frame(width: 35, height: 35)
+                    }
+                }
             }
         }
     }

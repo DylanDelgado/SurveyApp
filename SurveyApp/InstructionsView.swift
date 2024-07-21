@@ -10,28 +10,31 @@ struct InstructionsView: View {
                 
                 Text("Thank you for participating in this study!")
                 
+                // Profile creation image
                 Image("profile_creation")
                     .resizable()
                     .scaledToFit()
-                    .frame(height: 200)
+                    .frame(height: 700)
                     .cornerRadius(10)
                     .padding(.bottom)
                 
                 Text("Once you have created your profile, complete the Wellness Assessment Survey.")
                 
+                // Set reminders image
                 Image("set_reminders")
                     .resizable()
                     .scaledToFit()
-                    .frame(height: 200)
+                    .frame(height: 700)
                     .cornerRadius(10)
                     .padding(.bottom)
                 
                 Text("Next, set reminders for three separate times during the day (ex: 8:00am, 12:00pm, 6:00pm) to complete a survey about your social media use up to that point in the day.")
                 
-                Image("social_media_survey") // Example image name
+                // Social media survey image
+                Image("social_media_survey")
                     .resizable()
                     .scaledToFit()
-                    .frame(height: 200)
+                    .frame(height: 700)
                     .cornerRadius(10)
                     .padding(.bottom)
                 

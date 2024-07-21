@@ -3,8 +3,10 @@ import SwiftUI
 struct AppUsageSurveyView: View {
     @State private var selectedAppIndex = 0
     @State private var selectedMotiveIndex = 0
+    @State private var selectedActivityIndex = 0
     let socialMediaApps = ["Instagram", "Facebook", "Twitter", "Snapchat", "TikTok", "WhatsApp", "LinkedIn", "Reddit", "Pinterest", "YouTube", "Other"]
-    let motives = ["Entertainment", "Relationship Maintenance", "FOMO", "Escapism"]
+    let motives = ["Entertainment", "Communicating", "Seeing what others are up to", "Distraction"]
+    let activity = ["Messaging", "Posting", "Browsing"]
     
 
     
@@ -20,17 +22,17 @@ struct AppUsageSurveyView: View {
                     .pickerStyle(MenuPickerStyle())
                 }
 
-                Section(header: Text("Select Reason Motive")) {
-                    Picker(selection: $selectedMotiveIndex, label: Text("Reason Motive")) {
-                        ForEach(0..<motives.count, id: \.self) { index in
-                            Text(motives[index]).tag(index)
+                Section(header: Text("Select Activity")) {
+                    Picker(selection: $selectedActivityIndex, label: Text("Activity")) {
+                        ForEach(0..<activity.count, id: \.self) { index in
+                            Text(activity[index]).tag(index)
                         }
                     }
                     .pickerStyle(MenuPickerStyle())
                 }
                 
-                Section(header: Text("Select Reason Motive")) {
-                    Picker(selection: $selectedMotiveIndex, label: Text("Reason Motive")) {
+                Section(header: Text("Select Reason")) {
+                    Picker(selection: $selectedMotiveIndex, label: Text("Reason")) {
                         ForEach(0..<motives.count, id: \.self) { index in
                             Text(motives[index]).tag(index)
                         }
