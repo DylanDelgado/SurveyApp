@@ -12,6 +12,7 @@
 		FC6F814F2C12CC05001590EC /* GHQ12SurveyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6F814E2C12CC05001590EC /* GHQ12SurveyView.swift */; };
 		FC6F81512C12CC49001590EC /* ThankYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6F81502C12CC49001590EC /* ThankYouView.swift */; };
 		FCB5272A2C38FAB7008C9216 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB527292C38FAB7008C9216 /* AppDelegate.swift */; };
+		FCBF81E72CBC234100F045C1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FCBF81E62CBC234100F045C1 /* GoogleService-Info.plist */; };
 		FCC636332C4C339600E6E940 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC636322C4C339600E6E940 /* AccountView.swift */; };
 		FCF218E62C1294F000F9AB3C /* SurveyAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF218E52C1294F000F9AB3C /* SurveyAppApp.swift */; };
 		FCF218E82C1294F000F9AB3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF218E72C1294F000F9AB3C /* ContentView.swift */; };
@@ -46,6 +47,7 @@
 		FC6F814E2C12CC05001590EC /* GHQ12SurveyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHQ12SurveyView.swift; sourceTree = "<group>"; };
 		FC6F81502C12CC49001590EC /* ThankYouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouView.swift; sourceTree = "<group>"; };
 		FCB527292C38FAB7008C9216 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../.Trash/AppDelegate.swift; sourceTree = "<group>"; };
+		FCBF81E62CBC234100F045C1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "SurveyApp/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		FCC636322C4C339600E6E940 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		FCF218E22C1294F000F9AB3C /* Mindful Media.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mindful Media.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCF218E52C1294F000F9AB3C /* SurveyAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyAppApp.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				FC6F81502C12CC49001590EC /* ThankYouView.swift */,
 				FC6F814E2C12CC05001590EC /* GHQ12SurveyView.swift */,
 				FCF218E92C1294F200F9AB3C /* Assets.xcassets */,
+				FCBF81E62CBC234100F045C1 /* GoogleService-Info.plist */,
 				FCF218EB2C1294F200F9AB3C /* Preview Content */,
 			);
 			path = SurveyApp;
@@ -236,6 +239,9 @@
 				Base,
 			);
 			mainGroup = FCF218D92C1294F000F9AB3C;
+			packageReferences = (
+				FCBF81E52CBC22E600F045C1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = FCF218E32C1294F000F9AB3C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -268,6 +274,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCBF81E72CBC234100F045C1 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +459,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SurveyApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.medical";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -480,6 +488,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SurveyApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.medical";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -610,6 +619,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FCBF81E52CBC22E600F045C1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = FCF218DA2C1294F000F9AB3C /* Project object */;
 }
