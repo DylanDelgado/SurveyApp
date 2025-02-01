@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC16C9AE2D47ED7B00FA46A8 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC16C9AD2D47ED7B00FA46A8 /* DataManager.swift */; };
+		FC16C9B02D47EDD600FA46A8 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = FC16C9AF2D47EDD600FA46A8 /* FirebaseAuth */; };
+		FC16C9B22D47EDD600FA46A8 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = FC16C9B12D47EDD600FA46A8 /* FirebaseFirestore */; };
+		FC16C9B42D47FDFF00FA46A8 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC16C9B32D47FDFF00FA46A8 /* SignupView.swift */; };
 		FC1EB8EC2C1E0D0400E0BD89 /* ScheduleRemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1EB8EB2C1E0D0400E0BD89 /* ScheduleRemindersView.swift */; };
+		FC5DADB72D480B030068CB89 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC5DADB62D480B030068CB89 /* GoogleService-Info.plist */; };
 		FC6F814D2C12CBF8001590EC /* AppUsageSurveyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6F814C2C12CBF8001590EC /* AppUsageSurveyView.swift */; };
 		FC6F814F2C12CC05001590EC /* GHQ12SurveyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6F814E2C12CC05001590EC /* GHQ12SurveyView.swift */; };
 		FC6F81512C12CC49001590EC /* ThankYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6F81502C12CC49001590EC /* ThankYouView.swift */; };
-		FCB5272A2C38FAB7008C9216 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB527292C38FAB7008C9216 /* AppDelegate.swift */; };
-		FCBF81E72CBC234100F045C1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FCBF81E62CBC234100F045C1 /* GoogleService-Info.plist */; };
+		FCB428F12D4DD6E800567BF6 /* AppUsage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB428F02D4DD6E800567BF6 /* AppUsage.swift */; };
 		FCC636332C4C339600E6E940 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC636322C4C339600E6E940 /* AccountView.swift */; };
 		FCF218E62C1294F000F9AB3C /* SurveyAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF218E52C1294F000F9AB3C /* SurveyAppApp.swift */; };
 		FCF218E82C1294F000F9AB3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF218E72C1294F000F9AB3C /* ContentView.swift */; };
@@ -42,12 +46,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC16C9AD2D47ED7B00FA46A8 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		FC16C9B32D47FDFF00FA46A8 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 		FC1EB8EB2C1E0D0400E0BD89 /* ScheduleRemindersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleRemindersView.swift; sourceTree = "<group>"; };
+		FC5DADB62D480B030068CB89 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FC6F814C2C12CBF8001590EC /* AppUsageSurveyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUsageSurveyView.swift; sourceTree = "<group>"; };
 		FC6F814E2C12CC05001590EC /* GHQ12SurveyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHQ12SurveyView.swift; sourceTree = "<group>"; };
 		FC6F81502C12CC49001590EC /* ThankYouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouView.swift; sourceTree = "<group>"; };
-		FCB527292C38FAB7008C9216 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../.Trash/AppDelegate.swift; sourceTree = "<group>"; };
-		FCBF81E62CBC234100F045C1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "SurveyApp/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		FCB428F02D4DD6E800567BF6 /* AppUsage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUsage.swift; sourceTree = "<group>"; };
 		FCC636322C4C339600E6E940 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		FCF218E22C1294F000F9AB3C /* Mindful Media.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mindful Media.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCF218E52C1294F000F9AB3C /* SurveyAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyAppApp.swift; sourceTree = "<group>"; };
@@ -67,6 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC16C9B02D47EDD600FA46A8 /* FirebaseAuth in Frameworks */,
+				FC16C9B22D47EDD600FA46A8 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +98,6 @@
 		FCF218D92C1294F000F9AB3C = {
 			isa = PBXGroup;
 			children = (
-				FCB527292C38FAB7008C9216 /* AppDelegate.swift */,
 				FCF218E42C1294F000F9AB3C /* SurveyApp */,
 				FCF218F52C1294F200F9AB3C /* SurveyAppTests */,
 				FCF218FF2C1294F200F9AB3C /* SurveyAppUITests */,
@@ -115,12 +122,15 @@
 				FCF218E52C1294F000F9AB3C /* SurveyAppApp.swift */,
 				FCF218E72C1294F000F9AB3C /* ContentView.swift */,
 				FCC636322C4C339600E6E940 /* AccountView.swift */,
+				FC16C9AD2D47ED7B00FA46A8 /* DataManager.swift */,
+				FCB428F02D4DD6E800567BF6 /* AppUsage.swift */,
 				FCFB9A492C43B9190040F8AB /* InstructionsView.swift */,
 				FC6F814C2C12CBF8001590EC /* AppUsageSurveyView.swift */,
 				FC6F81502C12CC49001590EC /* ThankYouView.swift */,
 				FC6F814E2C12CC05001590EC /* GHQ12SurveyView.swift */,
+				FC16C9B32D47FDFF00FA46A8 /* SignupView.swift */,
+				FC5DADB62D480B030068CB89 /* GoogleService-Info.plist */,
 				FCF218E92C1294F200F9AB3C /* Assets.xcassets */,
-				FCBF81E62CBC234100F045C1 /* GoogleService-Info.plist */,
 				FCF218EB2C1294F200F9AB3C /* Preview Content */,
 			);
 			path = SurveyApp;
@@ -215,7 +225,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
-				LastUpgradeCheck = 1530;
+				LastUpgradeCheck = 1620;
 				TargetAttributes = {
 					FCF218E12C1294F000F9AB3C = {
 						CreatedOnToolsVersion = 15.3;
@@ -260,6 +270,7 @@
 			files = (
 				FCF218ED2C1294F200F9AB3C /* Preview Assets.xcassets in Resources */,
 				FCF218EA2C1294F200F9AB3C /* Assets.xcassets in Resources */,
+				FC5DADB72D480B030068CB89 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +285,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCBF81E72CBC234100F045C1 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,14 +295,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCB428F12D4DD6E800567BF6 /* AppUsage.swift in Sources */,
 				FC1EB8EC2C1E0D0400E0BD89 /* ScheduleRemindersView.swift in Sources */,
 				FCFB9A4A2C43B9190040F8AB /* InstructionsView.swift in Sources */,
 				FC6F814F2C12CC05001590EC /* GHQ12SurveyView.swift in Sources */,
 				FC6F814D2C12CBF8001590EC /* AppUsageSurveyView.swift in Sources */,
+				FC16C9B42D47FDFF00FA46A8 /* SignupView.swift in Sources */,
 				FCF218E82C1294F000F9AB3C /* ContentView.swift in Sources */,
-				FCB5272A2C38FAB7008C9216 /* AppDelegate.swift in Sources */,
 				FCC636332C4C339600E6E940 /* AccountView.swift in Sources */,
 				FCF218E62C1294F000F9AB3C /* SurveyAppApp.swift in Sources */,
+				FC16C9AE2D47ED7B00FA46A8 /* DataManager.swift in Sources */,
 				FC6F81512C12CC49001590EC /* ThankYouView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -510,7 +522,6 @@
 		FCF2190A2C1294F200F9AB3C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -529,7 +540,6 @@
 		FCF2190B2C1294F200F9AB3C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -548,7 +558,6 @@
 		FCF2190D2C1294F200F9AB3C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -565,7 +574,6 @@
 		FCF2190E2C1294F200F9AB3C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -630,6 +638,19 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FC16C9AF2D47EDD600FA46A8 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCBF81E52CBC22E600F045C1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		FC16C9B12D47EDD600FA46A8 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCBF81E52CBC22E600F045C1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FCF218DA2C1294F000F9AB3C /* Project object */;
 }

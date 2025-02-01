@@ -1,14 +1,17 @@
 import SwiftUI
 import UserNotifications
+import Firebase
 
 @main
 struct SurveyAppApp: App {
     
-    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
-    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    init() {
+        FirebaseApp.configure()
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SignupView()
                 .onAppear {
                     requestNotificationPermissions()
                 }
