@@ -4,6 +4,7 @@ import Firebase
 
 @main
 struct SurveyAppApp: App {
+    @StateObject var dataManager = DataManager()
     
     init() {
         FirebaseApp.configure()
@@ -12,6 +13,7 @@ struct SurveyAppApp: App {
     var body: some Scene {
         WindowGroup {
             SignupView()
+                .environmentObject(dataManager)
                 .onAppear {
                     requestNotificationPermissions()
                 }

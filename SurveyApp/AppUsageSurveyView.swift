@@ -4,12 +4,13 @@ struct AppUsageSurveyView: View {
     @State private var selectedAppIndex = 0
     @State private var selectedMotiveIndex = 0
     @State private var selectedActivityIndex = 0
+    @EnvironmentObject var dataManager: DataManager
+    @State private var showAlert = false
+    
     let socialMediaApps = ["Instagram", "Facebook", "Twitter", "Snapchat", "TikTok", "WhatsApp", "LinkedIn", "Reddit", "Pinterest", "YouTube", "Other"]
     let motives = ["Entertainment", "Communicating", "Seeing what others are up to", "Distraction"]
     let activity = ["Messaging", "Posting", "Browsing"]
-    
 
-    
     var body: some View {
         NavigationView {
             Form {
@@ -40,7 +41,7 @@ struct AppUsageSurveyView: View {
                     .pickerStyle(MenuPickerStyle())
                 }
 
-                NavigationLink(destination: ThankYouView()) {
+                Button(action: submitSurvey) {
                     Text("Submit")
                         .frame(maxWidth: .infinity)
                         .padding()
@@ -50,7 +51,20 @@ struct AppUsageSurveyView: View {
                 }
             }
             .navigationTitle("App Usage Survey")
+            .alert(isPresented: $showAlert) {
+                Alert(
+                    title: Text("Survey Submitted"),
+                    message: Text("Thank you for completing the survey!"),
+                    dismissButton: .default(Text("OK"))
+                )
+            }
         }
+    }
+    
+    func submitSurvey() {
+        dataManager.addAppUsage(App: (socialMediaApps[selectedAppIndex]), Motive: (activity[selectedActivityIndex]), Activity: (motives[selectedMotiveIndex]))
+        
+        showAlert = true
     }
 }
 

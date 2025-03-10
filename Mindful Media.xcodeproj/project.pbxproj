@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC0D68C62D7F30E800074B8B /* Survey.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0D68C52D7F30E700074B8B /* Survey.swift */; };
 		FC16C9AE2D47ED7B00FA46A8 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC16C9AD2D47ED7B00FA46A8 /* DataManager.swift */; };
 		FC16C9B02D47EDD600FA46A8 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = FC16C9AF2D47EDD600FA46A8 /* FirebaseAuth */; };
 		FC16C9B22D47EDD600FA46A8 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = FC16C9B12D47EDD600FA46A8 /* FirebaseFirestore */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC0D68C52D7F30E700074B8B /* Survey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Survey.swift; sourceTree = "<group>"; };
 		FC16C9AD2D47ED7B00FA46A8 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		FC16C9B32D47FDFF00FA46A8 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 		FC1EB8EB2C1E0D0400E0BD89 /* ScheduleRemindersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleRemindersView.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				FCC636322C4C339600E6E940 /* AccountView.swift */,
 				FC16C9AD2D47ED7B00FA46A8 /* DataManager.swift */,
 				FCB428F02D4DD6E800567BF6 /* AppUsage.swift */,
+				FC0D68C52D7F30E700074B8B /* Survey.swift */,
 				FCFB9A492C43B9190040F8AB /* InstructionsView.swift */,
 				FC6F814C2C12CBF8001590EC /* AppUsageSurveyView.swift */,
 				FC6F81502C12CC49001590EC /* ThankYouView.swift */,
@@ -304,6 +307,7 @@
 				FCF218E82C1294F000F9AB3C /* ContentView.swift in Sources */,
 				FCC636332C4C339600E6E940 /* AccountView.swift in Sources */,
 				FCF218E62C1294F000F9AB3C /* SurveyAppApp.swift in Sources */,
+				FC0D68C62D7F30E800074B8B /* Survey.swift in Sources */,
 				FC16C9AE2D47ED7B00FA46A8 /* DataManager.swift in Sources */,
 				FC6F81512C12CC49001590EC /* ThankYouView.swift in Sources */,
 			);
@@ -469,6 +473,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SurveyApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 5SZU4RYL3Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.medical";
@@ -498,6 +503,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SurveyApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 5SZU4RYL3Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.medical";

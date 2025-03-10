@@ -5,16 +5,16 @@ import FirebaseAuth
 struct SignupView: View {
     @State private var email: String = ""
     @State private var password: String = ""
-    @State private var userisloggedin: Bool = false
+    @State private var userIsLoggedIn: Bool = false
     
     var body: some View {
-        if userisloggedin {
+        if userIsLoggedIn {
             ContentView()
-        }
-        else {
+        } else {
             content
         }
     }
+    
     var content: some View {
         ZStack {
             // Gradient background with your custom colors
@@ -50,7 +50,7 @@ struct SignupView: View {
                     .padding(.horizontal)
 
                 Button(action: {
-                    register() // Call the register function
+                    register()
                 }) {
                     Text("Sign Up")
                         .frame(maxWidth: .infinity)
@@ -62,13 +62,23 @@ struct SignupView: View {
                 }
 
                 Button(action: {
-                    login() // Call the login function
+                    login()
                 }) {
                     Text("Already have an account? Login here.")
                         .foregroundColor(.white)
                 }
             }
             .padding()
+        }
+        .onAppear {
+            checkLoginStatus()
+        }
+    }
+    
+    // Check if the user is already logged in
+    func checkLoginStatus() {
+        if Auth.auth().currentUser != nil {
+            userIsLoggedIn = true
         }
     }
 
@@ -79,6 +89,7 @@ struct SignupView: View {
                 print("Error creating user: \(error.localizedDescription)")
             } else {
                 print("User created successfully: \(result?.user.email ?? "No Email")")
+                userIsLoggedIn = true
             }
         }
     }
@@ -90,6 +101,7 @@ struct SignupView: View {
                 print("Error logging in: \(error.localizedDescription)")
             } else {
                 print("User logged in successfully: \(result?.user.email ?? "No Email")")
+                userIsLoggedIn = true
             }
         }
     }

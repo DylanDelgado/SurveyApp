@@ -2,6 +2,8 @@ import SwiftUI
 
 struct GHQ12SurveyView: View {
     @State private var responses = Array(repeating: 0, count: 12)
+    @EnvironmentObject var dataManager: DataManager
+    @State private var showAlert = false  // State to trigger pop-up
 
     let questions = [
         "Have you recently been able to concentrate on whatever you’re doing?",
@@ -21,7 +23,7 @@ struct GHQ12SurveyView: View {
     let options = ["Better than usual", "Same as usual", "Less than usual", "Much less than usual"]
 
     var body: some View {
-        NavigationView{
+        NavigationView {
             Form {
                 ForEach(0..<questions.count, id: \.self) { index in
                     VStack(alignment: .leading) {
@@ -37,25 +39,36 @@ struct GHQ12SurveyView: View {
                     .padding(.vertical, 8)
                 }
 
-                NavigationLink(destination: ThankYouView()) {
+                Button(action: submitSurvey) {
                     Text("Submit")
                         .frame(maxWidth: .infinity)
                         .padding()
-                        .background(Color.green)
+                        .background(Color.blue)
                         .foregroundColor(.white)
                         .cornerRadius(10)
                 }
             }
-        .navigationTitle("Mental Health Survey")
-
+            .navigationTitle("Mental Health Survey")
+            .alert(isPresented: $showAlert) {
+                Alert(
+                    title: Text("Survey Submitted"),
+                    message: Text("Thank you for completing the survey!"),
+                    dismissButton: .default(Text("OK"))
+                )
+            }
         }
     }
-}
 
+    func submitSurvey() {
+        dataManager.addSurvey(responses: responses)
+        
+        // Show confirmation pop-up
+        showAlert = true
+    }
+}
 
 struct GHQ12SurveyView_Previews: PreviewProvider {
     static var previews: some View {
-        GHQ12SurveyView()
+        GHQ12SurveyView().environmentObject(DataManager())
     }
 }
-
