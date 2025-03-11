@@ -20,7 +20,7 @@ struct GHQ12SurveyView: View {
         "Have you recently been feeling reasonably happy, all things considered?"
     ]
 
-    let options = ["Better than usual", "Same as usual", "Less than usual", "Much less than usual"]
+    let options = ["More than usual", "Same as usual", "Less than usual", "Much less than usual"]
 
     var body: some View {
         NavigationView {
